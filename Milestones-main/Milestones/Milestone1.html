@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Site title-->
+    <title>Document</title>
+</head>
+<body>
+    <!--imputed Youtube video-->
+    <iframe id="Content" width="761" height="428" src="https://www.youtube.com/embed/tE7-Bt2Qkr8" title="FNAF AI Generated Images (Luma Ai)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--Class name "Des"-->
+<discription class="Des">
+<!--Made up video title-->
+<h1>FIVE NIGHTS AT FREDDIES 12 LEAKED GAMEPLAY</h1>
+<!--Made up video description-->
+<h2>Real game gameplay, totally legit, not clickbait, TRUE.</h2>
+</discription>
+<!--Embedding CSS section-->
+<style>
+    /*Positioning*/
+    #Content {
+        position: relative;
+        top: 100px;
+        left: 420px;
+        width: 400px;
+        height: 400px;    
+    }
+    .Des {
+        position: relative;
+        top: 100px;
+        left: 290px;
+        width: 400px;
+        height: 400px; 
+    }
+
+</style>
+
+
+    <!--Button import-->
+    <div id="player"></div>
+    <button id="autoplayButton">Autoplay Video</button>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+
+<!--Button Javascript-->
+<script>
+window.onload = function() {
+    const video = document.getElementById('myVideo');
+    video.play().catch((error) => {
+        console.error('Autoplay was prevented:', error);
+    });
+};
+
+</script>
+</html>
